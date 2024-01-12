@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Leen4Clean - شركة تنظيف</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('ug.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .fadeInImage {
+            position: absolute;
+            bottom: -500px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: slideUp 3s forwards;
+            opacity: 0;
+            width: 200px;
+            height: 200px;
+        }
+
+        @keyframes slideUp {
+            to {
+                bottom: 0;
+                opacity: 1;
+            }
+        }
+
+        .social-button {
+            width: 90px;
+            height: 80px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .about-button {
+            padding: 15px 30px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Leen4Clean - شركة تنظيف</h1>
+    <p>نحن هنا لمساعدتك في تنظيف منزلك!</p>
+
+    <h3>تواصل معنا</h3>
+    <p>يمكنك التواصل معنا عبر البريد الإلكتروني: <a href="mailto:leen4clean@gmail.com">leen4clean@gmail.com</a></p>
+
+    <!-- أزرار التواصل الاجتماعي -->
+    <a href="https://x.com/leen4clean?s=20" target="_blank"><img src="x.png" alt="برنامج X" class="social-button"></a>
+    <a href="https://www.tiktok.com/@leen4clean?" target="_blank"><img src="tiktok.png" alt="تيك توك" class="social-button"></a>
+    <a href="https://www.instagram.com/leen4clean?igsh=MXJjeDdrOW15aDZ5bg==" target="_blank"><img src="ins.png" alt="إنستقرام" class="social-button"></a>
+
+    <!-- زر "من نحن" -->
+    <a href="about.html" class="about-button">من نحن</a>
+
+    <!-- نص للتواصل و الطلب -->
+    <p style="margin-top: 20px;">للتواصل و الطلب</p>
+
+    <!-- شعار واتساب -->
+    <a href="https://wa.me/message/ERYDJEL7MXTBE1" target="_blank"><img src="whatsapp.png" alt="واتساب" class="social-button"></a>
+
+</div>
+
+<img class="fadeInImage" src="o.png" alt="صورة تظهر من تحت الشاشة">
+
+</body>
+
+</html>
